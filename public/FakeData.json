@@ -1,0 +1,104 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://res.cloudinary.com/dospsrwzj/image/upload/v1711619657/c33trcxb9tugxz88c4i4.png",
+    "review": "A captivating portrayal of the Jazz Age that explores themes of decadence, idealism, and the American Dream.",
+    "totalPages": 180,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": [
+      "Classics",
+      "Romance",
+      "Tragedy"
+    ],
+    "publisher": "Scribner",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 2,
+    "bookName": "Joey Persia",
+    "author": "George Orwell",
+    "image": "https://res.cloudinary.com/dospsrwzj/image/upload/v1711619359/m0tzgjgeqhvp5knukjc6.png",
+    "review": "A chilling dystopian novel that serves as a stark warning about the dangers of totalitarianism and government surveillance.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": [
+      "Dystopian",
+      "Political",
+      "Social Critique"
+    ],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 3,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://res.cloudinary.com/dospsrwzj/image/upload/v1711619430/fz9rmdj8vb1kn0pllk0g.png",
+    "review": "A poignant story set in the American South, tackling themes of racial injustice, morality, and compassion.",
+    "totalPages": 324,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": [
+      "Classics",
+      "Legal Drama",
+      "Coming-of-Age"
+    ],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://res.cloudinary.com/dospsrwzj/image/upload/v1711619487/ke3gmsttg1srmacfazwo.png",
+    "review": "A timeless novel exploring themes of adolescent angst, alienation, and the search for authenticity.",
+    "totalPages": 224,
+    "rating": 4.4,
+    "category": "Fiction",
+    "tags": [
+      "Coming-of-Age",
+      "Literary Fiction",
+      "Identity"
+    ],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 5,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://res.cloudinary.com/dospsrwzj/image/upload/v1711619543/elg2jyxku7gjnuek30pr.png",
+    "review": "A timeless romantic comedy of manners that explores themes of class, marriage, and societal expectations.",
+    "totalPages": 432,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": [
+      "Classics",
+      "Romance",
+      "Satire"
+    ],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "image": "https://res.cloudinary.com/dospsrwzj/image/upload/v1711619589/teh62zn5wadknzwf0ghd.png",
+    "review": "An epic fantasy masterpiece that transports readers to a vividly imagined world of hobbits, wizards, and dark forces.",
+    "totalPages": 1178,
+    "rating": 4.9,
+    "category": "Fiction",
+    "tags": [
+      "Fantasy",
+      "Adventure",
+      "Epic"
+    ],
+    "publisher": "Allen & Unwin",
+    "yearOfPublishing": 1954
+  }
+]
