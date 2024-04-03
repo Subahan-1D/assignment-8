@@ -10,12 +10,12 @@ import Home from './components/Home/Home';
 import ListedBooks from './components/ListedBooks/ListedBooks';
 import Pages from './components/Pages/Pages';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import Books from './components/Books/Books';
+import BookDetails from './components/BookDetails/BookDetails';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -23,11 +23,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/listed',
-        element:<ListedBooks></ListedBooks>,
+        element: <ListedBooks></ListedBooks>,
+        
       },
       {
-        path:'/pages',
-        element:<Pages></Pages>,
+        path: '/pages',
+        element: <Pages></Pages>,
+      },
+      {
+        path: '/book/:bookId',
+        element: <BookDetails></BookDetails>,
+        loader: () => fetch('FakeData.json')
       },
     ]
   },
