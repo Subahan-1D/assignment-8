@@ -1,10 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
-    const links = <div className="flex gap-5">
-        <li><NavLink to='/' className={({ isActive }) => isActive ? ' bg-[#62d150]  font-bold' :  ' font-bold'}>Home</NavLink></li>
-        <li><NavLink to='/listed' className={({ isActive }) => isActive ? 'bg-[#62d150] font-bold' : 'font-bold'} >Listed Books</NavLink></li>
-        <li><NavLink to='/pages' className={({ isActive }) => isActive ? 'bg-[#62d150] font-bold' : 'font-bold'}>Pages to Read</NavLink></li>
+
+        const links = <div className="flex gap-5 items-center">
+        <NavLink to='/' className={({ isActive }) => isActive ? ' btn btn-ghost text-green-500  font-bold' :  ' font-bold'}>Home</NavLink>
+        <NavLink to='/listed' className={({ isActive }) => isActive ? 'btn btn-ghost text-green-500 font-bold' : 'font-bold'} >Listed Books</NavLink>
+        <NavLink to='/pages' className={({ isActive }) => isActive ? 'btn btn-ghost text-green-500 font-bold' : 'font-bold'}>Pages to Read</NavLink>
+   
     </div>
     return (
         <div className="navbar bg-base-100 shadow-lg ">
